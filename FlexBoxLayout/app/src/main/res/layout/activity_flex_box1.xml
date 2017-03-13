@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/flexbox_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:alignContent="stretch"
+    app:alignItems="stretch"
+    app:flexDirection="row"
+    app:flexWrap="wrap"
+    >
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#80ff0000"
+        app:layout_alignSelf="baseline" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#8000ffd0"
+        app:layout_alignSelf="baseline" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#800066ff"
+        app:layout_alignSelf="baseline" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#800066ff"
+        app:layout_alignSelf="baseline" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#80ff0000"
+        app:layout_alignSelf="baseline" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#8000ffd0"
+        app:layout_alignSelf="baseline" />
+
+</com.google.android.flexbox.FlexboxLayout>

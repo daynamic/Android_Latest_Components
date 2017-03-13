@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:alignItems="center"
+    app:alignContent="center"
+    app:flexDirection="row"
+    app:flexWrap="wrap">
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="1"
+        android:background="#FFCEE1"
+        android:layout_margin="1dp"
+        android:textColor="#000000"
+        app:layout_alignSelf="baseline" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_margin="1dp"
+        android:text="2"
+        android:background="#FFCEE1"
+        android:textColor="#000000"
+        app:layout_alignSelf="baseline" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="3"
+        android:layout_margin="1dp"
+        android:background="#FFCEE1"
+        android:textColor="#000000"
+        app:layout_alignSelf="baseline" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="4"
+        android:layout_margin="1dp"
+        android:background="#FFCEE1"
+        android:textColor="#000000"
+        app:layout_alignSelf="baseline" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="5"
+        android:background="#FFCEE1"
+        android:textColor="#000000"
+        app:layout_alignSelf="baseline" />
+</com.google.android.flexbox.FlexboxLayout>
