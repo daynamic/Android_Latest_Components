@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Github Rx Android</string>
+    <string name="username">Username</string>
+    <string name="search">Search</string>
+</resources>
